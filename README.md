@@ -5,7 +5,7 @@
 >Author: linrenwen@gmail.com
 
 ## Objective
-create a matlab-snippet JSON file for your ower natlab toolbox.
+create a matlab-snippet JSON file for your ower matlab toolbox.
 
 ## Usage
 1. Refer to `createSnippetMatlab_example.m`, clone it, then modify it with `the path of yourown toolbox`. and `the JSON file name for matlab snippet`, for example `matlab_snippet.json`. run `createSnippetMatlab_example.m`, and it generate the json file: `matlab_snippet.json`.
