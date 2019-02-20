@@ -1,29 +1,9 @@
-% OBJECTIVE: Calculate #####
-function createSnippetMatlab(PathOfToobox,PathOfJSON)
-% [] = fn(PathOfToobox,PathOfJSON)
-%
-%% OUTPUT
-% [] = 
-%
-%% INPUT
-% PathOfToobox = 
-% PathOfJSON = 
-% 
-%% REQUIRMENT
-% 
-% 
-%% EXMAPLE
-% 
-% 
-%% SEE ALSO
-%
-% 
-%% AUTHOR: linrenwen@gmail.com
-%% VERSION: v1.0 2019/02/20
+clear; clc; close all;
 
 %% 1. Prepare the function file list
 % the path including self-define function mfiles
-P1 = strcat(PathOfToobox, '\**\*.m');
+P(1) = 'C:\Dropbox\YY_LL\PROJECTS\Tools_Matlab_Dropbox';
+P1 = strcat(P(1), '\**\*.m');
 Fm = rdir(P1);
 FmTab = struct2table(Fm);
 
@@ -116,7 +96,7 @@ filenameTable.body = cellstr(FmTab.strSnippet);
 filenameTable.description = cellstr(FmTab.description);
 filenameStruct = table2struct( filenameTable);
 % outport json for matlab snippet file
-fileJSON = PathOfJSON;
+fileJSON = 'matlabSnippetLRW.json';
 fwriteJSON_Snippet(fileJSON, filenameTable)
 % Note: savejson donot work here and is queit slow
 % Note: json jsonencode dont work here
@@ -166,6 +146,4 @@ function strSnippet = getSnippet(inputs,outputs,funname)
     strSnippet= iprefix;
     
 end
-
 %% end of m-file
-end

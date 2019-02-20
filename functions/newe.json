@@ -1,9 +1,0 @@
-{
-    "MultiProd": {
-        "prefix": "MultiProd2",
-        "body": [
-            "${1: RHS = } MultiProd(${1: M}, ${2: X})$0",
-        ],
-        "description": "function RHS = MultiProd(M, X)" 
-    },
-}

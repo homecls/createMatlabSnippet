@@ -1,0 +1,17 @@
+{
+"ClassDefine_AccumulatorMap": {
+"prefix": "ClassDefine_AccumulatorMap",
+"body": "${1:AMap = }ClassDefine_AccumulatorMap$0",
+"description": "function AMap = AccumulatorMap()" 
+},
+"fun_adftest": {
+"prefix": "fun_adftest",
+"body": "${1:[h, pValue, stat, cValue, reg] = }fun_adftest(${2:y}, ${3:varargin})$0",
+"description": "function [h,pValue,stat,cValue,reg] = adftest(y,varargin)" 
+},
+"mfile_test": {
+"prefix": "mfile_test",
+"body": "mfile_test$0",
+"description": "mfile_test" 
+},
+}
