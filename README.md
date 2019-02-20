@@ -9,7 +9,7 @@ For VScode user, create a matlab-snippet JSON file for your ower matlab toolbox.
 
 ## Usage
 
-All required functions and example are included in `creatSnippetMatlab_example.zip`. 
+All required functions and example are included in `、exmple\creatSnippetMatlab_example.zip`. 
 
 1. Find `createSnippetMatlab_example.m`, clone it, then replace `the path of yourown toolbox`. and `the JSON file name for matlab snippet` with your own ones like: `matlab_snippet.json`. run `createSnippetMatlab_example.m`, and it generate the json file: `matlab_snippet.json`.
    ``` matlab
