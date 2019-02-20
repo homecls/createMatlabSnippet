@@ -36,4 +36,3 @@ celldisp(strJson);
 
 %% Part 4, Demo of result
 
-
