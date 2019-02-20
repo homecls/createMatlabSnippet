@@ -1,11 +1,15 @@
-% OBJECTIVE: an example of the creating matlab snippet for self-defined toolbox
-% function A Json file for snippet = main(path of toolbox,path for json file)
+%% OBJECTIVE: example of using createMatlabSnippet.m
+
+% Author: linrenwen@gmail.com, SUIBE
+% Version: 2019/02/20
+% OBJECTIVE: 
+% function  = main(,)
 %
 %% INPUT
-% path of toolbox = 
-% path for json file = 
+%  = 
+%  = 
 %% OUTPUT
-% A Json file for snippet = 
+%  = 
 %
 %% REQUIRMENT
 % 

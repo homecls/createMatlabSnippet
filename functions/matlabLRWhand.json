@@ -12,6 +12,23 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"clc; clear; close all": {
+		"prefix": "clcCleanCloseall",
+		"body": [
+			"clc; clear; close all; % fclose all",
+			"",
+			"$0"
+		],
+		"description": "clear; clear; and other preparation"
+	},
+	"Part #": {
+		"prefix": "Part",
+		"body": [
+			"%% Part $1, $2",
+			"% $0"
+		],
+		"description": "clear; clear; and other preparation"
+	},
 	"author info of linrenwen": {
 		"prefix": "author",
 		"body": [
