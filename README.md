@@ -1,6 +1,6 @@
 @import "C:\Dropbox\YY_LL\PROJECTS\Tools_Markdown\style2.less"
 
-# createMatlabSnippet
+# Create Matlab Snippet for self-defined toolbox
 
 >Author: linrenwen@gmail.com
 
