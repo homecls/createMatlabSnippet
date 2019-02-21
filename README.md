@@ -16,4 +16,4 @@ All required functions and example are included in `exmple\creatSnippetMatlab_ex
    createSnippetMatlab(Path.functions, Path.matlabJson);
    ```
 2. Copy the contend in `matlab_snippet.json`, delete the `{`and`}`at the begin and the end of file. Then paste it into the user's `matlab.json` file located in `C:\Users\lin\AppData\Roaming\Code\User\snippets\matlab.json`.
-3. restart the VS Code. enjoy self-defined matlab snippet.
+3. Restart the VS Code. enjoy self-defined matlab snippet.
